@@ -35,7 +35,7 @@ lPROFILE   <- TRUE #FALSE - Gerar analise exploratoria
 lREMOVENUL <- FALSE #FALSE - Remover variaveis que apenas tiverem conteudo nulo
 lCOVARIA   <- FALSE #FALSE - Gerar analise de covariancias
 lUNIFICAR  <- TRUE #FALSE - Gera dataframe unico de arquivos anuais
-FONTEPRIN  <- 'MSSQLDB|server=localhost\\SRVDEV02;database=dbpn_des;uid=sa;pwd=@123456' #MSSQLDB, LOCALFILE, SQLITE
+FONTEPRIN  <- 'MSSQLDB|server=localhost\\servname;database=dbxx;uid=us;pwd=@xxxxxx' #MSSQLDB, LOCALFILE, SQLITE
 
 cat('Diretorio do projeto:',getwd(),'\n')     #diretorio do projeto
 cat('Parametros: AnoPNAD=',ANOPNAD,'\nArqPNAD=',EXTPNAD,'\nRecursivo=',lRECURSIVO,'\nLerCSVsetiver=',lREADCSV,'\nFontePrincipal=',FONTEPRIN,'\nGerarCSV_SQL=',lWRITEOUT,'\nGerarTXTprofiler=',lPROFILE,'\nGerarCovariancias=',lCOVARIA,'\n')
